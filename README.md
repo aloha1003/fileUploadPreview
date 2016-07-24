@@ -1,4 +1,4 @@
-# fileUploadPreview
+# jQuery Plugin fileUploadPreview
 upload Image for Preview
 
 # Demo 
