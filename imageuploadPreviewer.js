@@ -668,7 +668,8 @@
                     if (deleteBtnVisibily) {
                         $(settings.deleteBtn).show();
                         $(initSettings.previewer).show();
-                        $(body).delegate(settings.deleteBtn, 'click',function(){
+                        $('body').delegate(settings.deleteBtn , 'click',function(){
+            
                             $(initSettings.previewer).hide();
                             $(this).hide();
                         } ); 
